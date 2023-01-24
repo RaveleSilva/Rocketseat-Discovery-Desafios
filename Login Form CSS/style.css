@@ -1,0 +1,138 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 120vh;
+}
+
+.left-container{
+    background-color: #191816;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-container > img{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.central-container{
+    background-color: #24221F;
+    padding: 30px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-title{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.header-title > h1{
+    color: #D4CCB6;
+    font-weight: 600;
+}
+
+.form-container > header{
+    margin-bottom: 30px;
+}
+
+.form-container > header > p{
+    font-size: 16px;
+    color: #AFB6C2;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form label{
+    font-size: 16px;
+    color: #A9AFB9;
+}
+
+form input{
+    padding: 10px 0px 10px 20px;
+    border-radius: 4px;
+    border: 1px solid #868686;
+    background-color: #24221F;
+}
+
+form input::placeholder{
+    color: #A9AFB9;
+}
+
+.checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.checkbox > div > input{
+    height: 20px;
+    width: 20px;
+}
+
+.checkbox > div{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    width: 130px;
+}
+
+.checkbox > a{
+    text-decoration: none;
+    color: #FFC632;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+form > button{
+    letter-spacing: 1.5%;
+    font-size: 18px;
+    font-weight: 600;
+    color: #473404;
+    border: none;
+    border-radius: 4px;
+    background-color: #FFC532;
+    padding: 12px 0px;
+}
+
+form > p{
+    color: #FFC632;
+    font-size: 14px;
+    text-align: center;
+}
+
+form > p > a{
+    font-weight: 600;
+    color: #FFC632;
+    text-decoration: none;
+}
+
+.right-container{
+    background-image: url(img/side-image-2x.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
