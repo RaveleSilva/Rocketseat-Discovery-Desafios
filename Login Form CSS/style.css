@@ -27,7 +27,6 @@ body{
 
 .central-container{
     background-color: #24221F;
-    min-width: 500px;
     padding: 30px 80px;
     display: flex;
     align-items: center;
@@ -154,7 +153,12 @@ form > p > a{
 
     .central-container{
         background-color: #191816;
-        border: 1px solid #868686;
+        border: 1px solid #A9AFB9;
+        padding: 30px 60px;
+    }
+
+    header > p{
+        width: 350px;
     }
 
 
