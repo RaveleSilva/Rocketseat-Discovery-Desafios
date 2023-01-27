@@ -68,7 +68,12 @@ form input{
     padding: 10px 0px 10px 20px;
     border-radius: 4px;
     border: 1px solid #868686;
-    background-color: #24221F;
+    background-color: transparent;
+    color: #D4CCB6;
+}
+
+form input:focus{
+    border: 1px solid #FFC532;
 }
 
 form input::placeholder{
@@ -104,7 +109,9 @@ form input::placeholder{
     display: flex;
     flex-direction: column;
     gap: 5px;
+    color: #D4CCB6;
 }
+
 
 form > button{
     letter-spacing: 1.5%;
