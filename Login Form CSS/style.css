@@ -9,10 +9,10 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 120vh;
+    background-color: #191816;
 }
 
 .left-container{
-    background-color: #191816;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,6 +27,7 @@ body{
 
 .central-container{
     background-color: #24221F;
+    min-width: 500px;
     padding: 30px 80px;
     display: flex;
     align-items: center;
@@ -140,6 +141,23 @@ form > p > a{
     background-image: url(img/side-image-2x.jpg);
     background-size: cover;
     background-position: center;
+}
+
+@media (max-width: 1010px) {
+    body{
+        grid-template-columns: 1fr;
+    }
+
+    .right-container{
+        display: none;
+    }
+
+    .central-container{
+        background-color: #191816;
+        border: 1px solid #868686;
+    }
+
+
 }
 
 
